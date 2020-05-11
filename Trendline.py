@@ -2,7 +2,7 @@ import trendln
 import matplotlib.pyplot as plt
 import os
 import yfinance as yf # requires yfinance - pip install yfinance
-
+#
 dirname = os.path.dirname(os.path.realpath(__file__))
 filepath = os.path.join(dirname, 'Report\\trendline')
 if not os.path.isdir(filepath):
